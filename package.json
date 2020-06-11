@@ -1,8 +1,12 @@
 {
   "name": "@things-factory/common",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
   "dependencies": {
     "@material/mwc-button": "^0.15.0",
     "@material/mwc-fab": "^0.15.0",
