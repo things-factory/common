@@ -1,10 +1,17 @@
 {
   "name": "@things-factory/common",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "license": "MIT",
   "dependencies": {
+    "@material/mwc-button": "^0.15.0",
+    "@material/mwc-fab": "^0.15.0",
+    "@material/mwc-icon": "^0.15.0",
+    "@material/mwc-icon-button": "^0.15.0",
+    "@material/mwc-slider": "^0.15.0",
+    "@material/mwc-textfield": "^0.15.0",
     "graphql": "^15.1.0",
+    "typeorm": "^0.2.25",
     "typescript": "^3.9.5"
   }
 }
